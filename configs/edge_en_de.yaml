@@ -1,0 +1,10 @@
+seed: 13
+task: en-de
+draft_model: nimbus/draft-32m
+target_model: nimbus/target-410m
+max_draft_depth: 6
+latency_lookup: configs/latency_rtx.yaml
+batch_size: 32
+learning_rate: 0.0003
+warmup_steps: 400
+eval_every: 40
